@@ -30,8 +30,8 @@ This is an example spreadsheet testing authentication routes of a web applicatio
 
 <br>
 
-| Front-End | | | | | | |
-| --- | --- | --- | --- | --- | --- | --- |
+| Front-End | | | | 
+| --- | --- | --- | --- |
 | **URL** | **Context** | **Passed** | **Outcome**
 | /protected | No token | True | Redirected to login route successfully
 | /protected | With token | True | Accessed the protected resources
@@ -49,7 +49,6 @@ project
 │   package.json    
 └── __tests__
 │   │   authentication.js
-│   │   file012.txt
 ```
 
 ### Example Test Script
